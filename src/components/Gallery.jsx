@@ -24,7 +24,6 @@ const darLike = (e) => {
               <div className="image-container" key={foto.id}>
                     <img className="galeria" src={foto.src.medium}  onClick={darLike}/>
                     <p className='image-text'>{foto.alt}</p>
-            {/*   <div className="like-icon" data-liked={foto.liked}></div> */}
               <IconHeart filled={foto.liked}/>
           </div>
         ))}
