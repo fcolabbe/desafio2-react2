@@ -45,24 +45,31 @@ npm run dev
 ## Estructura del proyecto
 
 ```
-natural-pic/
-├── public/
-│   ├── photos.json
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── PhotoCard.js
-│   │   └── FavoritesList.js
-│   ├── context/
-│   │   └── PhotoContext.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   └── Favorites.js
+DESAFIO2-REACT2
+├── node_modules
+├── public
+│   └── photos.json
+├── src
+│   ├── assets
+│   │   ├── heart-filled.svg
+│   │   ├── heart-icon-red.png
+│   │   ├── heart-icon.png
+│   │   └── heart.svg
+│   ├── components
+│   │   ├── Gallery.jsx
+│   │   ├── IconHeart.jsx
+│   │   └── Navbar.jsx
+│   ├── views
+│   │   ├── Favorites.jsx
+│   │   └── Home.jsx
+│   ├── App.css
 │   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx
 ├── .gitignore
+├── index.html
+├── package-lock.json
 ├── package.json
-├── vite.config.js
-└── README.md
+├── README.md
+└── vite.config.js
 ```
