@@ -46,7 +46,6 @@ npm run dev
 
 ```
 DESAFIO2-REACT2
-├── node_modules
 ├── public
 │   └── photos.json
 ├── src
