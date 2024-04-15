@@ -14,10 +14,10 @@ const App = () => {
   const [fotos, setFotos] = useState([])
   
   useEffect(() => {
-    fetchNoticias()
+    fetchFotos()
   }, [])
 
-  const fetchNoticias = async () => {
+  const fetchFotos = async () => {
     try {
       const response = await fetch(PHOTO_URL)
       if (!response.ok) {
@@ -26,7 +26,7 @@ const App = () => {
       const data = await response.json()
       setFotos(data.photos)
     } catch (error) {
-      console.error('Error al obtener noticias:', error);
+      console.error('Error al obtener las fotos:', error);
     }
   }
 
